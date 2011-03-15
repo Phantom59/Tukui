@@ -29,8 +29,8 @@ C["unitframes"] = {
 	["showtotalhpmp"] = false,                          -- change the display of info text on player and target with XXXX/Total.
 	["showsmooth"] = true,                              -- enable smooth bar
 	["charportrait"] = false,                           -- do i really need to explain this?
-	["maintank"] = false,                               -- enable maintank
-	["mainassist"] = false,                             -- enable mainassist
+	["maintank"] = true,                               -- enable maintank
+	["mainassist"] = true,                             -- enable mainassist
 	["unicolor"] = true,                               -- enable unicolor theme
 	["combatfeedback"] = false,                          -- enable combattext on player and target.
 	["playeraggro"] = true,                             -- color player border to red if you have aggro on current target.
@@ -47,7 +47,7 @@ C["unitframes"] = {
 	["raidunitdebuffwatch"] = true,                     -- track important spell to watch in pve for grid mode.
 	["gridhealthvertical"] = false,                      -- enable vertical grow on health bar for grid mode.
 	["showplayerinparty"] = true,                      -- show my player frame in party
-	["gridscale"] = 1,                                  -- set the healing grid scaling
+	["gridscale"] = 1.30,                                  -- set the healing grid scaling
 	
 	-- boss frames
 	["showboss"] = true,                                -- enable boss unit frames for PVELOL encounters.
@@ -133,11 +133,11 @@ C["datatext"] = { -- number 7 can only be used when chat.background is enabled
 	["raidmarks"] = 0,                          -- show the toggle button for the mark bar
 
 	["battleground"] = true,                            -- enable 3 stats in battleground only that replace stat1,stat2,stat3.
-	["time24"] = true,                                  -- set time to 24h format.
-	["localtime"] = false,                              -- set time to local time instead of server time.
+	["time24"] = false,                                  -- set time to 24h format.
+	["localtime"] = true,                              -- set time to local time instead of server time.
 	
 	-- Color Datatext
-	["classcolor"] = false,                -- classcolored datatexts 
+	["classcolor"] = true,                -- classcolored datatexts 
 	["color"] = "|cff808080",              -- datatext color if classcolor = false
 
 	["fontsize"] = 14,                     -- font size for panels.

@@ -128,4 +128,6 @@
 	<Script file="modules\extra\extra.lua"/>
 	<Script file="core\movers.lua"/>
 	<Script file="developer\test.lua"/>
+	<Include file="addonskins\load_addonskins.xml"/>
+	<Include file="misc\load_misc.xml"/>
 </Ui>
